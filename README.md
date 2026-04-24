@@ -50,4 +50,19 @@ No event is counted more than once, no matter how many times the API repeats it 
 - **Java 17** (records, `java.net.http.HttpClient`, `TimeUnit`)
 - **JSON.org** (`json-20231013.jar`) – lightweight, less common in tutorials, reduces plagiarism risk.
 
-## Project Structure
+
+## How to Compile and Run
+
+### 1. Download JSON‑org JAR
+
+Get `json-20231013.jar` from:  
+https://repo1.maven.org/maven2/org/json/json/20231013/json-20231013.jar
+
+Place it in a `lib/` folder next to the source code.
+
+### 2. Compile
+
+**Windows (Command Prompt):**
+```bash
+javac -cp "lib\json-20231013.jar;." RA231103QuizHandler.java
+
